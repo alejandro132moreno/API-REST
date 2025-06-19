@@ -4,7 +4,7 @@ const router = express.Router();
 
 
 
-router.get('/anillo', (req, res) => {
+router.get('/', (req, res) => {
   res.json({
     message: 'HOLA MUNDO',
   });
