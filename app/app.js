@@ -8,7 +8,7 @@ app.use(express.json());
 
 
 // Manejo de errores
-app.use('/joyas', router);
+app.use('/', router);
 
 
 
